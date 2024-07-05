@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+
+    .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nuevaTareaContainer input,
+    .nuevaTareaContainer select
+    {
+        width: 80%;
+    }
+
+    .buttons-nuevaTareaContainer {
+        width: 50%;
+    }
+
+    .buttons-nuevaTareaContainer button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .config-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .config-item {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}

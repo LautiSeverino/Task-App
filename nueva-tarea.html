@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="assets/task-icon-64.png">
+    <link rel="manifest" href="manifest.json">
+    <script src="nueva-tarea.js" defer></script>
+    <title>Crear Nueva Tarea</title>
+</head>
+<body>
+    <header>
+        <h1>Crear Nueva Tarea</h1>
+    </header>
+    <div class="nuevaTareaContainer">
+        <input type="text" id="titulo" required placeholder="Título">
+        <textarea type="text" id="descripcion" required placeholder="Descripción"></textarea>
+        <select name="Estado" id="estado" required>
+            <option value="pendiente">Pendiente</option>
+            <option value="en progreso">En progreso</option>
+            <option value="finalizada">Finalizada</option>
+        </select>
+        <div class="buttons-nuevaTareaContainer">
+            <button id="aceptar-btn">Aceptar</button>
+            <button id="cancelar-btn">Cancelar</button>
+        </div>
+    </div>
+    
+</body>
+</html>

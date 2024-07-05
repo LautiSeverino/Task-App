@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurar las bases de la aplicación</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="assets/task-icon-64.png">
+    <script src="config.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Configurar las bases de la aplicación</h1>
+    </header>
+
+    
+    <div class="config-container">
+        <h2>Configuración</h2>
+        <div class="config-item">
+            <label for="selectVoice">Idioma:</label>
+            <select id="selectVoice"></select>
+        </div>
+        <div class="config-item">
+            <label for="inputRate">Velocidad de reproducción:</label>
+            <input type="range" id="inputRate" min="-0.9" max="1.1" value="1" step="0.01">
+            <p id="labelInputRate">Velocidad de reproducción: 1</p>
+        </div>
+        <button id="guardarConfigBtn">Guardar Configuración</button>
+        <button id="volverBtn">Volver</button>
+    </div>
+</body>
+</html>
